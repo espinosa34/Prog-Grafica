@@ -15,6 +15,9 @@
      <el-col :span="16">
         <div class="grid-content">
           <h1>Formulario</h1>
+          <br>
+          <el-input placeholder="Please input" v-model="input"></el-input>
+
      </div>
      </el-col>
     
@@ -26,5 +29,13 @@
   <!-- import JavaScript -->
   <script src="https://unpkg.com/element-ui/lib/index.js"></script>
   <script src="./main.js"></script>
-
+  <script>
+    export default {
+      data() {
+        return {
+          input: ''
+        }
+      }
+    }
+    </script>
 </html>
