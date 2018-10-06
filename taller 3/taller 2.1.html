@@ -9,9 +9,10 @@
   <div id="app">
     <h1>Formulario</h1>
     <br>
-    <el-input placeholder="introduce tu ID" v-model="input"></el-input>
-    <br><br>
-    <el-input placeholder="introduce tu mombre" v-model="input"></el-input>
+  <h3>id: <el-input placeholder="" v-model="input"></el-input></h3>
+  <h3>nombre: <el-input placeholder="" v-model="input"></el-input></h3>
+  <h3>precio:<el-input placeholder="" v-model="input"></el-input> </h3>
+  <h3>descripcion: <el-input type="textarea" :rows="2" placeholder="" v-model="textarea"></el-input></h3>
   </div>
 </body>
   <!-- import Vue before Element -->
@@ -28,7 +29,7 @@
       }
     }
     </script>
-    <script>
+  <script>
         export default {
           data() {
             return {
@@ -36,5 +37,23 @@
             }
           }
         }
-        </script>
+      </script>
+  <script>
+      export default {
+        data() {
+          return {
+            input: ''
+          }
+        }
+      }
+      </script>
+  <script>
+      export default {
+        data() {
+          return {
+            textarea: ''
+          }
+        }
+      }
+      </script>
 </html>
