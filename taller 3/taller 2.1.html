@@ -7,7 +7,12 @@
 </head>
 <body>
   <div id="app">
-    
+    <H1>Formulario de banco</H1>
+    <br>
+    <el-input placeholder="coloque su id" v-model="input"></el-input>
+    <br>
+    <el-input placeholder="introduce el nombre" v-model="input"></el-input>
+
   </div>
 </body>
   <!-- import Vue before Element -->
@@ -21,5 +26,19 @@
         return { visible: false }
       }
     })
+    export default {
+  data() {
+    return {
+      input: ''
+    }
+  }
+}
+export default {
+  data() {
+    return {
+      input: ''
+    }
+  }
+}
   </script>
 </html>
