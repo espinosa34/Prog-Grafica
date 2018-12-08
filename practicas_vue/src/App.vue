@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Visualizar from './components/Visualizar.vue'
+import visualizar from './components/Visualizar.vue'
 import inventario from './components/inventario.vue'
 import inventario_2 from './components/inventario_2.vue'
 import prueba from './components/prueba.vue'
