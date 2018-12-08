@@ -15,7 +15,7 @@ import prueba from './components/prueba.vue'
 export default {
   name: 'app',
   components: {
-    Visualizar,
+    visualizar,
     inventario
   }
 }
