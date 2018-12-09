@@ -29,32 +29,13 @@
       }
     }
     </script>
-  <script>
-        export default {
-          data() {
-            return {
-              input: ''
-            }
-          }
-        }
-      </script>
-  <script>
-      export default {
-        data() {
-          return {
-          
-          }
-        }
-      }
-      </script>
-  <script>
-      export default {
-        data() {
-          return {
-            textarea: '',
-			  input: ''
-          }
-        }
-      }
-      </script>
+ 
+ <script>
+  new Vue({
+    el: '#app',
+    data: function() {
+      return { visible: false }
+    }
+  })
+</script>
 </html>
